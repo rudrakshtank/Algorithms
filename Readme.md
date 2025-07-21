@@ -71,6 +71,7 @@ Basically these are supposed to be my notes, but feel free to use them as you wi
 - [Miller-Rabin Method](primalityTest/millerRabinMethod)
 - [Sieve of Eratosthenes](primalityTest/Sieve%20of%20Eratosthenes)
 - [Solovay-Strassen Method](primalityTest/solovayStrassenMethod)
+- [Count Distinct Primes From Binary String](primalityTest/Count%20Distinct%20Primes%20From%20Binary%20String)
 
 ### [Classic Algorithms](classicalAlgos)
 - [0/1 Knappsack](classicalAlgos/0-1KnappSack)

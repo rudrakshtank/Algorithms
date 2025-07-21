@@ -1,6 +1,6 @@
-# 🧮 Count Distinct Primes from Binary String
+# Count Distinct Primes from Binary String
 
-## ✅ Problem Recap
+## Problem
 
 Given a binary string `s`, you can:
 
@@ -11,7 +11,7 @@ You need to count how many **distinct prime numbers** can be formed using **all 
 
 ---
 
-## 🔍 Observations
+## Observations
 
 - **Swapping** means the order of `'1'`s and `'0'`s doesn’t matter.
 - **Turning `'1'` into `'0'`** means you can reduce the number of 1s, but never increase them.
@@ -23,7 +23,7 @@ So, with `k` number of 1s, you can form all numbers with:
 
 ---
 
-## 💡 Key Idea
+## Key Idea
 
 We generate all integers `x` from `2` to the maximum possible binary value using:
 
@@ -36,7 +36,7 @@ Then for each such number:
 
 ---
 
-## ⚙️ Algorithm Steps
+## Algorithm Steps
 
 1. Count number of `'1'`s in the original string (`k`)
 2. Generate all numbers with **≤ k set bits** within **n-bit length**
@@ -45,13 +45,13 @@ Then for each such number:
 
 ---
 
-## 🧠 Time Complexity
+## Time Complexity
 
 - **Precomputation (Sieve):** `O(N log log N)`
 - **Number generation:** `Up to 2^n` where `n ≤ 20` ⇒ **manageable** (≈ 1 million range)
 
 ---
 
-## 🛠️ Tags
+## Tags
 
 `Bit Manipulation` • `Primes` • `Combinatorics` • `Sieve of Eratosthenes`
